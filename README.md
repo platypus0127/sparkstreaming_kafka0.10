@@ -1,0 +1,4 @@
+# sparkstreaming_kafka0.10
+
+# 利用SparkStreaming消费kafka里的数据，CustomDirectKafka1里面做到了采用了Dirct的方式消费Kafka的数据，并手动保存offset实现零丢失
+（说明：此处的零丢失是指Kafka到SparkStreaming数据的零丢失，如果想是整个流处理系统的上下游也实现零丢失，那么输出的地方还需要做事务控制） 
